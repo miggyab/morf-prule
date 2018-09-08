@@ -16,6 +16,8 @@ RUN \
   apt-get -y install python3-dev python3-pip python-virtualenv && \ 
   rm -rf /var/lib/apt/lists/* 
 
+# Install needed Python modules
+RUN pip3 install gzip shutil json pymysql pyknow numpy scipy
 
 # Define commonly used JAVA_HOME variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
