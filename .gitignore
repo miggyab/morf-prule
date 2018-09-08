@@ -1,0 +1,6 @@
+*.tar
+*.pyc
+*__pycache__*
+*.Rhistory
+logging
+.idea
